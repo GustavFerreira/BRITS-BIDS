@@ -1,0 +1,29 @@
+.navegation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(69, 161, 189);
+}
+.parts{
+    float: left;
+  border-right:1px solid #bbb;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+#rightIn{
+  float: right;
+}
+footer{
+  background-color: rgb(69, 161, 189);
+  color: white;
+}
