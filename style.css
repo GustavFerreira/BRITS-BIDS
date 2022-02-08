@@ -1,9 +1,18 @@
+body {
+  width: 900px;
+  border: 1px solid rgb(69, 161, 189);
+  margin: auto;
+  position: relative;
+  max-height: 3000px;
+}
+
 .navegation{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(69, 161, 189);
+  border: 1px solid #bbb;
 }
 .parts{
     float: left;
@@ -26,4 +35,122 @@ li a:hover:not(.active) {
 footer{
   background-color: rgb(69, 161, 189);
   color: white;
+  border: 1px solid #bbb;
 }
+.left{
+  float: left;
+  width: 30%;
+  border-right: 1px solid rgb(69, 161, 189);
+  position: relative;
+}
+.right{
+  float: right;
+
+  position: relative;
+}
+.middle{
+  /*color: black;
+  background-color: white;*/
+  color: white;
+  background-color: rgb(69, 161, 189);
+  padding: 15px;
+}
+
+@media screen and (max-width: 800px){
+    body {
+    width: 100%;
+    border: 1px solid royalblue;
+    margin: auto;
+    height: 100%;
+    position: relative;
+
+  }
+    .middle{
+  background-color: royalblue;
+  color: white;
+  }
+    li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  li a:hover:not(.active) {
+  background-color: goldenrod;
+  }
+    .navegation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: royalblue;
+  }
+    .middle{
+  background-color: royalblue;
+  color: white;
+  }
+    footer{
+  background-color: royalblue;
+  color: white;
+  }
+  video{
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+    body {
+    width: 100%;
+    border: 1px solid rgb(47, 194, 145);
+    margin: auto;
+    height: 100%;
+    position: relative;
+ 
+  }
+    .middle{
+  background-color: rgb(47, 194, 145);
+  color: white;
+  }
+    li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+    li a:hover:not(.active) {
+  background-color: royalblue;
+  }
+    .navegation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(47, 194, 145);
+  }
+    .parts{
+    width: 100%;
+    border-right:1px solid royalblue;
+  }
+    .middle{
+  background-color: rgb(47, 194, 145);
+  color: white;
+  }
+    footer{
+  background-color: rgb(47, 194, 145);
+  color: white;
+  }
+  video{
+    width: 100%;
+  }
+    .left{
+  float: left;
+  width: 100%;
+  border-right: 1px solid rgb(69, 161, 189);
+  position: relative;
+  }
+}
+
+.clearFloat { clear:both; }
